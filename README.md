@@ -1,2 +1,2 @@
-# writer
-Beautifully simple blogging.
+# hosting-app
+Beautifully simple publishing.
