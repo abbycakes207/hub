@@ -1,2 +1,3 @@
-# hosting-app
-Beautifully simple publishing.
+## application-skeleton
+
+Basic scaffolding for building applications on Infinite Automata.

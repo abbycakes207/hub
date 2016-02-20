@@ -1,0 +1,36 @@
+{
+  "name": "nubhub",
+  "version": "0.0.1",
+  "description": "Beautifully simple blogging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "node index.js",
+    "dev": "node dev.js"
+  },
+  "repository": "heropunch/nubhub",
+  "author": "Infinite Automata Community",
+  "license": "AGPL-3.0",
+  "homepage": "https://www.heropun.ch/products/nubhub/",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "moment": "^2.11.2",
+    "node-jsx": "^0.13.3",
+    "path": "^0.12.7",
+    "pouchdb": "^5.2.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "validate.js": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-react": "^6.5.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

@@ -1,0 +1,8 @@
+app:
+    build: .
+    ports:
+        - "3006:3006"
+    volumes:
+        - ./app/:/srv/app/:ro
+        - ./views/:/srv/views/:ro
+    command: dev
