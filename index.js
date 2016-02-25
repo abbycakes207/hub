@@ -6,9 +6,7 @@ var port = 3005;
 var app = express();
 var bodyParser = require("body-parser");
 
-require("node-jsx").install({
-    extension: ".jsx"
-});
+require('babel-register');
 
 // static files
 app.use(express.static(path.join(__dirname, "dist")));

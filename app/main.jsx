@@ -1,8 +1,6 @@
-// mindsync: connect the world!
+import React from "react";
+import ReactDOM from "react-dom";
+import Home from "./com/Home";
 
-var React = require("react");
-var ReactDOM = require("react-dom");
-
-var Home = require("./com/Home");
 
 ReactDOM.render(<Home />, document.getElementById("energize"));
